@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FC4A5D281E5059CE007BDDED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A5D271E5059CE007BDDED /* AppDelegate.swift */; };
-		FC4A5D2A1E5059CE007BDDED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A5D291E5059CE007BDDED /* ViewController.swift */; };
+		FC4A5D2A1E5059CE007BDDED /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A5D291E5059CE007BDDED /* tableVC.swift */; };
 		FC4A5D2D1E5059CE007BDDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D2B1E5059CE007BDDED /* Main.storyboard */; };
 		FC4A5D2F1E5059CE007BDDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D2E1E5059CE007BDDED /* Assets.xcassets */; };
 		FC4A5D321E5059CE007BDDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D301E5059CE007BDDED /* LaunchScreen.storyboard */; };
+		FC4A5D3A1E505A4B007BDDED /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A5D391E505A4B007BDDED /* detailsVC.swift */; };
+		FC4A5D411E505D73007BDDED /* bart.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D3D1E505D73007BDDED /* bart.PNG */; };
+		FC4A5D421E505D73007BDDED /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D3E1E505D73007BDDED /* homer.png */; };
+		FC4A5D431E505D73007BDDED /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D3F1E505D73007BDDED /* marge.png */; };
+		FC4A5D441E505D73007BDDED /* ned.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D401E505D73007BDDED /* ned.png */; };
+		FC4A5D461E505E61007BDDED /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A5D451E505E61007BDDED /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC4A5D241E5059CE007BDDED /* Simpsons Character Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A5D271E5059CE007BDDED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC4A5D291E5059CE007BDDED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC4A5D291E5059CE007BDDED /* tableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
 		FC4A5D2C1E5059CE007BDDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4A5D2E1E5059CE007BDDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4A5D311E5059CE007BDDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4A5D331E5059CF007BDDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A5D391E505A4B007BDDED /* detailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		FC4A5D3D1E505D73007BDDED /* bart.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.PNG; sourceTree = "<group>"; };
+		FC4A5D3E1E505D73007BDDED /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		FC4A5D3F1E505D73007BDDED /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge.png; sourceTree = "<group>"; };
+		FC4A5D401E505D73007BDDED /* ned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ned.png; sourceTree = "<group>"; };
+		FC4A5D451E505E61007BDDED /* Simpson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simpson.swift; path = ../Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		FC4A5D261E5059CE007BDDED /* Simpsons Character Book */ = {
 			isa = PBXGroup;
 			children = (
+				FC4A5D3D1E505D73007BDDED /* bart.PNG */,
+				FC4A5D3E1E505D73007BDDED /* homer.png */,
+				FC4A5D3F1E505D73007BDDED /* marge.png */,
+				FC4A5D401E505D73007BDDED /* ned.png */,
 				FC4A5D271E5059CE007BDDED /* AppDelegate.swift */,
-				FC4A5D291E5059CE007BDDED /* ViewController.swift */,
+				FC4A5D291E5059CE007BDDED /* tableVC.swift */,
+				FC4A5D391E505A4B007BDDED /* detailsVC.swift */,
+				FC4A5D451E505E61007BDDED /* Simpson.swift */,
 				FC4A5D2B1E5059CE007BDDED /* Main.storyboard */,
 				FC4A5D2E1E5059CE007BDDED /* Assets.xcassets */,
 				FC4A5D301E5059CE007BDDED /* LaunchScreen.storyboard */,
@@ -124,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4A5D431E505D73007BDDED /* marge.png in Resources */,
+				FC4A5D411E505D73007BDDED /* bart.PNG in Resources */,
+				FC4A5D421E505D73007BDDED /* homer.png in Resources */,
 				FC4A5D321E5059CE007BDDED /* LaunchScreen.storyboard in Resources */,
 				FC4A5D2F1E5059CE007BDDED /* Assets.xcassets in Resources */,
 				FC4A5D2D1E5059CE007BDDED /* Main.storyboard in Resources */,
+				FC4A5D441E505D73007BDDED /* ned.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4A5D2A1E5059CE007BDDED /* ViewController.swift in Sources */,
+				FC4A5D2A1E5059CE007BDDED /* tableVC.swift in Sources */,
+				FC4A5D461E505E61007BDDED /* Simpson.swift in Sources */,
+				FC4A5D3A1E505A4B007BDDED /* detailsVC.swift in Sources */,
 				FC4A5D281E5059CE007BDDED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +326,7 @@
 				FC4A5D381E5059CF007BDDED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
